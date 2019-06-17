@@ -6,14 +6,41 @@ public class Main {
         String alphaviteENG = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String alphaviteRUS = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
 
-        getCharCode(alphaviteENG);
-        getCharCode(alphaviteRUS);
+        /*getCharCode(alphaviteENG);
+        getCharCode(alphaviteRUS);*/
 
+        //getFIO1();
+
+        getFIO2();
+
+        System.out.println();
+
+        getPhone();
+    }
+
+    public static void getCharCode(String text) {
+
+        for (var c : text.toCharArray()) {
+            System.out.println("Символ " + c + ". Код: " + (int) c);
+        }
+
+        System.out.println();
+    }
+
+    public static String scannerFIO() {
+
+        System.out.printf("Введите ФИО: ");
+        Scanner scanner = new Scanner(System.in);
+
+        return scanner.nextLine();
+    }
+
+    public static void getFIO1() {
         boolean isFIO = true;
 
         while (isFIO) {
 
-            String FIO = getFIO();
+            String FIO = scannerFIO();
             String surname = "";
             String name = "";
             String otchestvo = "";
@@ -57,24 +84,86 @@ public class Main {
 
             isFIO = false;
         }
-
-
     }
 
-    public static void getCharCode(String text) {
+    public static void getFIO2() {
 
-        for (var c : text.toCharArray()) {
-            System.out.println("Символ " + c + ". Код: " + (int) c);
+        boolean isFIO = true;
+
+        while (isFIO) {
+
+            String FIO = scannerFIO();
+            String surname = "";
+            String name = "";
+            String otchestvo = "";
+
+            String[] sArray = FIO.split("\\s+");
+
+            if (sArray.length < 1) {
+                System.out.println("Вы ничего не ввели");
+                continue;
+            } else if (sArray.length > 3) {
+                System.out.println("Неправильный формат. Требуется ввести ФИО");
+                continue;
+            } else if (sArray.length == 3) {
+                surname = sArray[0];
+                name = sArray[1];
+                otchestvo = sArray[2];
+            } else if (sArray.length == 2) {
+                surname = sArray[0];
+                name = sArray[1];
+            } else {
+                surname = sArray[0];
+            }
+
+            System.out.println("Фамилия: " + surname);
+
+            if (!name.isEmpty())
+                System.out.println("Имя: " + name);
+            if (!otchestvo.isEmpty())
+                System.out.println("Отчество: " + otchestvo);
+
+            isFIO = false;
+        }
+    }
+
+    public static void getPhone() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Введите телефон: ");
+        String phone = scanner.nextLine().replaceAll("[^0-9]", "");
+
+
+        if (phone.length() < 11)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+
+            stringBuilder.append('7');
+            stringBuilder.append(phone);
+            phone = stringBuilder.toString();
         }
 
-        System.out.println();
-    }
+        StringBuilder stringBuilder = new StringBuilder();
 
-    public static String getFIO() {
+        for (int i = 0; i < phone.length(); i++)
+        {
+            if (i == 0) {
+                stringBuilder.append('+');
+                if (phone.charAt(i) == '8') {
+                    stringBuilder.append("7 (");
+                    continue;
+                }
+                stringBuilder.append(phone.charAt(i) + " (");
+            } else if (i == 3) {
+                stringBuilder.append(phone.charAt(i) + ") ");
+            } else if (i == 6 || i == 8) {
+                stringBuilder.append(phone.charAt(i) + "-");
+            } else {
+                stringBuilder.append(phone.charAt(i));
+            }
+        }
 
-        System.out.printf("Введите ФИО: ");
-        Scanner scanner = new Scanner(System.in);
+        phone = stringBuilder.toString();
 
-        return scanner.nextLine();
+        System.out.println("Ваш номер: " + phone);
     }
 }
