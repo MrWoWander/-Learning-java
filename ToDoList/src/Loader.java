@@ -1,4 +1,3 @@
-import javax.naming.InsufficientResourcesException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -10,7 +9,6 @@ public class Loader {
         System.out.println("Добро пожаловать в лист задач!\n");
 
         boolean isWork = true;
-
 
         String menuText = "Вы можете ввести команды:" +
                 "\n\t1. LIST - показать список команд" +
@@ -24,7 +22,6 @@ public class Loader {
         System.out.println(menuText);
 
         while (isWork) {
-
 
             System.out.printf("Введите команду: ");
             Scanner scanner = new Scanner(System.in);
@@ -94,7 +91,7 @@ public class Loader {
                 String toDo = isEmptyTask(console, comande, test[0]);
 
                 if (toDo == null) {
-                   return;
+                    return;
                 }
 
                 if (toDoList.size() >= index) {
@@ -114,19 +111,16 @@ public class Loader {
     }
 
     public static void deleteItem(String console, String comande) {
-        if (console.indexOf(" ", comande.length()) > 0)
-        {
+        if (console.indexOf(" ", comande.length()) > 0) {
             String textIndex = console.substring(comande.length() + 1);
 
-            if (isNumeric(textIndex))
-            {
+            if (isNumeric(textIndex)) {
                 int index = Integer.parseInt(textIndex);
 
                 if (toDoList.size() >= index) {
-                    System.out.println("Задание " + index + ": " + '"' + toDoList.get(index-1) + '"' + " удалено!");
+                    System.out.println("Задание " + index + ": " + '"' + toDoList.get(index - 1) + '"' + " удалено!");
                     toDoList.remove(index - 1);
-                }
-                else
+                } else
                     System.out.println("Объекта с таким индексом нет!");
             } else {
                 System.out.println("Вы не указали индекс!");
@@ -165,7 +159,7 @@ public class Loader {
             } else {
                 System.out.println("Вы не указали индекс!");
             }
-        }  else {
+        } else {
             System.out.println("Вы не указали индекс!");
         }
     }
@@ -179,8 +173,7 @@ public class Loader {
 
         String toDo = console.substring(index);
 
-        if (toDo.replaceAll("\\s+", "").isEmpty())
-        {
+        if (toDo.replaceAll("\\s+", "").isEmpty()) {
             System.out.println("Вы не написали задание");
             return null;
         }

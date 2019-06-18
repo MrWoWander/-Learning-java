@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388511ef-54c7-4c47-b880-e37b9c6c3f3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AgeCalculation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgeCalculation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringExperiments/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StringExperiments/src/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringManipulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StringManipulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StringManipulation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StringManipulation/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayManipulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayManipulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayManipulation/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayManipulation/src/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IncomeCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IncomeCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntegerExperiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntegerExperiments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntegerExperiments/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IntegerExperiments/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,22 +18,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Loader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-751">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="-352">
+              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#addItem#0;class#Loader#0" />
-                <element signature="method#deleteItem#0;class#Loader#0" />
-                <element signature="method#editItem#0;class#Loader#0" />
-                <element signature="method#isNumeric#0;class#Loader#0" />
               </folding>
             </state>
           </provider>
@@ -50,10 +47,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -61,6 +58,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,10 +75,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -124,14 +122,18 @@
       <updated>1560777696085</updated>
       <workItem from="1560777699433" duration="11002000" />
       <workItem from="1560788836384" duration="106000" />
+      <workItem from="1560806954507" duration="399000" />
+      <workItem from="1560872706428" duration="186000" />
+      <workItem from="1560874681482" duration="97000" />
+      <workItem from="1560876340078" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11108000" />
+    <option name="totallyTimeSpent" value="12840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -139,7 +141,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1963434" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -168,20 +170,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Loader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-751">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addItem#0;class#Loader#0" />
-            <element signature="method#deleteItem#0;class#Loader#0" />
-            <element signature="method#editItem#0;class#Loader#0" />
-            <element signature="method#isNumeric#0;class#Loader#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29436">
@@ -189,6 +177,16 @@
           <folding>
             <element signature="e#48617#48618#0" expanded="true" />
             <element signature="e#48660#48661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

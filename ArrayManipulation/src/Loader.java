@@ -1,17 +1,20 @@
+import java.util.Scanner;
+
 public class Loader {
     public static void main(String[] args) {
 
         // Задание 1
         String text = "Каждый охотник желает знать, где сидит фазан";
         String[] textSplit = text.split(",?\\s+");
-        String[] newArrayString = new String[textSplit.length];
 
-        for (int i = textSplit.length - 1; i >=0; i-- )
+        for (int i = 0; i < textSplit.length / 2; i++ )
         {
-            newArrayString [(textSplit.length - 1) - i] = textSplit[i];
+            String s = textSplit[i];
+            textSplit[i] = textSplit[(textSplit.length - 1) - i];
+            textSplit[(textSplit.length - 1) - i] = s;
         }
 
-        for (var s : newArrayString)
+        for (var s : textSplit)
             System.out.println(s);
 
         System.out.println();
@@ -50,19 +53,36 @@ public class Loader {
 
         //Задание 3
 
-        String[][] xString = {
-                {"X", " ", " ", " ", "X"},
-                {" ", "X", " ", "X", " "},
-                {" ", " ", "X", " ", " "},
-                {" ", "X", " ", "X", " "},
-                {"X", " ", " ", " ", "X"}
-        };
+        int countSize = 101;
+
+        char xChar = 'X';
+        char spaceChar = ' ';
+
+        String[][] xString = new String[countSize][countSize];
+
+        for (int i = 0; i < (xString.length / 2) + (countSize % 2); i++)
+        {
+            xString[i][i] = String.valueOf(xChar);
+            xString[i][xString.length - i - 1] = xString[i][i];
+
+            for (int j = 0; j < (xString.length / 2) + (countSize % 2); j++)
+            {
+                if (xString[i][j] != null)
+                    continue;
+
+                xString[i][j] = String.valueOf(spaceChar);
+                xString[i][xString[i].length - j - 1] = xString[i][j];
+
+            }
+
+            xString[(xString.length - 1) - i] = xString[i];
+        }
 
         for (int i = 0; i < xString.length; i++)
         {
-            for (int j = 0; j < xString[i].length; j++)
+            for (var s : xString[i])
             {
-                System.out.printf(xString[i][j]);
+                System.out.printf(s);
             }
             System.out.println();
         }
