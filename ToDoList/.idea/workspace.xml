@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="388511ef-54c7-4c47-b880-e37b9c6c3f3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ArrayManipulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayManipulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayManipulation/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayManipulation/src/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IncomeCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IncomeCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntegerExperiments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntegerExperiments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntegerExperiments/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IntegerExperiments/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
-    </list>
+    <list default="true" id="388511ef-54c7-4c47-b880-e37b9c6c3f3c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Loader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352">
-              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="63" />
+            <state relative-caret-position="264">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +49,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,11 +118,12 @@
       <workItem from="1560872706428" duration="186000" />
       <workItem from="1560874681482" duration="97000" />
       <workItem from="1560876340078" duration="1050000" />
+      <workItem from="1560932286167" duration="86000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12840000" />
+    <option name="totallyTimeSpent" value="12926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="2576" height="1416" extended-state="6" />
@@ -141,7 +134,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1963434" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.19793323" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -183,8 +176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Loader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="63" />
+        <state relative-caret-position="264">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
